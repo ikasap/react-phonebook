@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "jserver": "json-server --watch ./json-server/db.json --port 3001 --static ./json-server",    
+    "jserver": "json-server --watch ./json-server/db.json --port 3001 --static ./json-server",
     "dev": "npm-run-all -p -r start-react jserver",
     "dev-2": "(start npm run jserver & start npm run start-react)"
   },
