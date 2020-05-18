@@ -1,20 +1,19 @@
 {
-    "phones": [
-        {
-            "id": 1589836369467,
-            "name": "Arsia Arnold",
-            "number": "05553332211"
-        },
-        {
-            "id": 1589836391630,
-            "name": "Kathy Miller",
-            "number": "05553332299"
-        }
-        ,
-        {
-            "id": 1589836391738,
-            "name": "Shane Simon",
-            "number": "05323333322"
-        }
-    ]
+  "phones": [
+    {
+      "id": 1589836369467,
+      "name": "Arsia Arnold",
+      "number": "05553332211"
+    },
+    {
+      "id": 1589836391630,
+      "name": "Kathy Miller",
+      "number": "05553332299"
+    },
+    {
+      "id": 1589836391738,
+      "name": "Shane Simon",
+      "number": "05323333322"
+    }
+  ]
 }

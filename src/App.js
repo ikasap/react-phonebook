@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { Header } from './components/header';
 import { Container } from './components/container';
-import { PhoneForm } from './components/phone-form';
+import PhoneForm from './components/phone-form';
 import PhoneList from './components/phone-list';
 
 function App() {
