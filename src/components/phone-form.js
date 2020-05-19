@@ -18,14 +18,14 @@ class MyForm extends React.Component {
     this.setState({ displayErrors: false });
     
     axios
-      .post('http://localhost:3001/phones', {
+      .post('https://my-json-server.typicode.com/ikasap/typicode-json-server/phones', {
         "name": event.target.name.value,
         "number": event.target.number.value
       })
-      .then(res => {
-        event.target.reset();
-      })
+      .then(res => {})
       .catch(err => console.log(err));
+
+      event.target.reset();
   }
   render() {
     const { displayErrors } = this.state;

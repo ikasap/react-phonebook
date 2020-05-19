@@ -10,7 +10,7 @@ class PhoneList extends React.Component {
     }
     componentDidMount() {
         axios
-            .get("http://localhost:3001/phones")
+            .get("https://my-json-server.typicode.com/ikasap/typicode-json-server/phones")
             .then(res => this.setState({ data: res.data }))
             .catch(e => console.log(e));
     }
