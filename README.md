@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Try the demo at https://reactphonebook.herokuapp.com/
+
 ## Getting started
 Install JSON Server
 
